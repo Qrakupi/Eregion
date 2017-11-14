@@ -1,0 +1,163 @@
+/*Map svg container*/
+.chooseRegionMap{
+	margin:40px 50px;
+}
+/*Map region names*/
+.chooseRegionMap text{
+	font-size:8px;
+	text-transform:uppercase;
+	fill:white;
+}
+.chooseRegionMap text,.chooseMapTab,.regionNavContainer,.resultInfoPaying,.resultInfoNavsHeader,.resultInfoAddress{
+	font-weight:bold;
+}
+.chooseRegionMap path,.chooseRegionMap text{
+	cursor:pointer;
+}
+.chooseRegionMap text{
+	pointer-events: none;
+}
+
+/*Map regions coloring and effects*/
+.land
+{
+	fill: #CCCCCC;
+	fill-opacity: 0.8;
+	stroke:white;
+	stroke-opacity: 1;
+	stroke-width:1;
+	transition:0.15s fill-opacity ease-in;
+}
+.chooseRegionMap .land:hover{
+	fill-opacity:1;
+	transition:0.15s fill-opacity ease-in;
+}
+
+.southWestMap{
+	fill:rgb(148,146,147);
+}
+.southCentralMap{
+	fill:rgb(123,143,142);
+}
+.southEastMap{
+	fill:rgb(200,189,133);
+}
+
+.northWestMap{
+	fill:rgb(173,193,194);
+}
+.northCentralMap{
+	fill:rgb(176,174,149);
+}
+.northEastMap{
+	fill:rgb(173,149,157);
+}
+
+.mapIcon{
+	width:10%;
+	height:10%;
+	display:none;
+}
+
+/*Searching fields next to the map*/
+.mapForm{
+	position:absolute;
+	right:0%;
+	top:73%;
+	margin-right:10px;
+
+}
+.mapField{
+	border-top:none;
+	border-right:none;
+	border-left:none;
+	border-width:1px;
+	border-color:rgb(95,155,175);
+
+	display:block;
+	width:170px;
+	margin:25px 0px;
+	font-size:16px;
+}
+
+.chooseMapOptions{
+	background-color:rgb(235,239,242);
+	height:520px;
+}
+
+/*Search and region tabs*/
+.chooseMapTabsContainer{
+	height:350px
+}
+.chooseMapTabContainer{
+	height:40px;
+}
+.chooseMapTab{
+	background-color:rgb(95,155,175);
+
+	color:white;
+	line-height:300%;
+	padding-left:15px;
+	font-size:14px;
+}
+
+/*Search and region containers*/
+.regionNavContainer,.resultInfoBlock{
+	height:300px;
+}
+.regionNavContainer,.chooseMapTabsContainer{
+	padding-top:10px;
+}
+
+/*Search result container*/
+.row .resultInfoContainer{
+	padding-right:0px;
+}
+.resultInfoBlock{
+	background-color:rgb(215,215,215);	
+}
+.resultInfoBlock p{
+	padding:20px 0px 10px 0px;
+}
+.resultInfoAddress p{
+	color:rgb(90,90,90);
+}
+.resultInfoOptions a{
+	display:block;
+}
+.resultInfoNavsHeader{
+	color:rgb(94,154,176);
+	font-size:16px;
+}
+.resultInfoNavs a{
+	transition:0.2s color ease-in;
+}
+.resultInfoNavs a:hover{
+	color:white;
+	transition:0.2s color ease-in;
+}
+
+/*Region options container*/
+.regionNavContainer p{
+	padding-left:10px;
+}
+
+.southEastNav,.southEastNav:hover{
+	color:rgb(200,189,133);
+}
+.southCentralNav,.southCentralNav:hover{
+	color:rgb(123,143,142);
+}
+.southWestNav,.southWestNav:hover{
+	color:rgb(148,146,147);
+}
+
+.northEastNav,.northEastNav:hover{
+	color:rgb(173,149,157);
+}
+.northCentralNav,.northCentralNav:hover{
+	color:rgb(176,174,149);
+}
+.northWestNav,.northWestNav:hover{
+	color:rgb(183,193,194);
+}

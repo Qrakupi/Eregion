@@ -1,0 +1,67 @@
+html a{
+	color:black;
+}
+html a:hover{
+	color:black;
+	text-decoration:none;
+}
+html a:focus{
+	text-decoration:none;
+}
+.sidebar p{
+	margin:0px;
+}
+.row .sidebar{
+	background-color:rgb(95,155,175);
+	padding:30px 0px 30px 0px;
+	min-height:530px;
+}
+.sidebar ul{
+	list-style-type: none;
+	width:100%;
+	padding:0px;
+}
+.sidebar li,.searchRegionNav form{
+	margin:5px 0px;
+	color:white;
+	background-color:rgb(95,155,175);
+}
+
+.sidebarNav a:hover,.sidebarSubNav a:hover,.sidebar a:focus{
+	text-decoration: none;
+}
+.sidebarNav>a li{
+	position:relative;
+	height:40px;
+	line-height:40px;
+}
+.sidebarNav>a p{
+	padding-left:35px;
+}
+.sidebarSubNav>a p{
+	height:30px;
+	line-height:30px;
+	padding-left:50px;
+}
+.sidebar .selectedRegionNav{
+	background-color:white;
+	color:rgb(160,190,205) !important;
+}
+.selectedRegionNav .rightArrow{
+	border-left:8px solid rgb(0,115,170);
+}
+.selectedGuide,.selectedRegionNav,.sidebarNav a:hover p,.sidebarSubNav a:hover p{
+	font-weight:bold;
+}
+.rightArrow{
+	background:transparent;
+	width: 0; 
+	height: 0; 
+	position:absolute;
+	top:30%;
+	display:inline-block;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	border-left:8px solid white;
+}
+

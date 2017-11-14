@@ -1,0 +1,166 @@
+html body{
+	background-color:rgb(240,240,240);
+}
+.background{
+	background-image:url("/images/comp1.png");
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-color:transparent;
+	background-size: auto 180px;
+}
+.background .row{
+	background-color:transparent;
+}
+.row{
+	background-color:white;
+}
+
+.background{
+	height:180px;
+	position:relative;
+}
+
+/*Logo and caption*/
+.logoRow{
+	margin-bottom: 10px;
+}
+
+.logoHolder , .logoCaption {
+	height: 120px;
+}
+.logoHolder{
+	padding-top:30px;
+}
+.logo{
+	width:120px;
+	height:75px;
+}
+.logoRow .logoCaption{
+	padding:30px 0px 0px 5px;
+}
+.esign{
+	width:75%;
+	height:auto;
+}
+.logoCaptionInfo{
+	font-size:12pt;
+	color:rgb(45,45,45);
+	margin-top:5px;
+}
+.navNews>div,.navContainer{
+	font-weight:bold;
+}
+
+/*Search bar*/
+.searchbar{
+	margin-top:85px;
+}
+.search{
+	background: url("../images/searchIcon.png") no-repeat;
+	background-position:2% 40%;
+	background-size:25px 25px;
+	background-color:white;
+	border:1px solid rgb(200,200,200);
+	width:90%;
+	height:35px;
+	float:right;
+	padding:0px 50px;
+}
+.search:focus{
+	text-align:left;
+}
+
+.search,.navNews>div,.logoHolder{
+	text-align:right;
+}
+/*News Navigation*/
+.leftNewsContainer>.navNews{
+	height:50px;
+	font-size:22px;
+	line-height:200%;
+	padding-right:20px;
+	text-align:right;
+	margin-right:2.5px;
+}
+.navNews span{
+	font-family:"Verdana";
+	font-size:28px;
+	font-size:2.8rem;
+}
+.navNews,.navContainer{
+	color:white;
+	cursor:pointer;
+}
+.newNewsContainer{
+	padding:15px 25px 10px 15px;
+	position:relative;
+}
+.newNewsHeader{
+	font-size:14px;
+	font-weight:bold;
+	margin:0px;
+}
+.newNewsInfo{
+	font-size:12px;
+	color:rgb(145,145,145);
+	margin:0px 0px 10px 0px;
+}
+.newNewsBody{
+	margin-bottom:6px;
+}
+.newNewsBody,.newNewsMore p{
+	font-size:10px;
+
+}
+.newNewsMore{
+	float:right;
+}
+.newNewsMore .rightArrow{
+	position:static;
+	display:inline-block;
+	border-left-color:rgb(0,115,170);
+	margin-right:10px;
+}
+.newNewsMore p{
+	vertical-align:middle;
+	display:inline-block;
+}
+.pic1{
+	height:226px;
+	width:487px;
+}
+.pic2,.pic3{
+	height:138px;
+	width:292px;
+}
+
+/*Navigations*/
+.navRow{
+	margin:7.5px 0px;
+}
+.navRow>.row>div,.row>.leftNewsContainer,.row>.middleNewsContainer,.row>.rightNewsContainer {
+	padding:0px;
+
+}
+.navContainer{
+	height:35px;
+	margin:2.5px 2.5px;
+	padding-left:20px;
+	line-height:270%;
+}
+.navRow .row div:first-child .navContainer{
+	padding-left:60px;
+	margin-left:0px;
+}
+.navRow .row div:last-child .navContainer{
+	margin-right:0px;
+}
+.leftNewsContainer>.navNews,.navLocalTax>div,.navServiceTypes>div,.navPaymentTypes>div,.navLegalEntity>div{
+	background-color:rgb(95,155,175);
+}
+.navPhysicalPerson>div,.navDocuments>div,.navDeadlines>div{
+	background-color:rgb(0,115,170);
+}
+.navRegionServices>div{
+	background-color:rgb(160,190,205);
+}
